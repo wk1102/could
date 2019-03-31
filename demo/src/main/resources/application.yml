@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: demo
+server:
+  port: 51003
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      default-zone: http://localhost:8085/eureka/
+    fetch-registry: false
+    register-with-eureka: false

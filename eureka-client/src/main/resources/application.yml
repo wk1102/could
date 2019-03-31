@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: eureka-client
+server:
+  port: 51004
+eureka:
+  client:
+    service-url:
+      default-zone: http://localhost:8085/eureka/
